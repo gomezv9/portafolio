@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1280px" height="1308px" viewBox="0 0 1280 1308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DFFCC3" offset="0%"></stop>
+            <stop stop-color="#A1F64C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3-Copy-2" transform="translate(0.000000, -539.000000)" stroke-width="2">
+            <g id="Group-12" transform="translate(-13.000000, 540.000000)">
+                <circle id="Oval-6" stroke="url(#linearGradient-1)" opacity="0.380713619" cx="653" cy="653" r="653"></circle>
+                <circle id="Oval-6" stroke-opacity="0.668874547" stroke="#B8E986" opacity="0.464085821" cx="653.5" cy="652.5" r="377.5"></circle>
+                <circle id="Oval-6" stroke-opacity="0.590494792" stroke="#B8E986" opacity="0.402168843" cx="653.5" cy="652.5" r="175.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
