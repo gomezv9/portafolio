@@ -229,7 +229,7 @@
   height: 1em;
   border-radius: 50%;
   float: left;
-  margin: 0 0.1em 0.1em 0;
+  margin: 0 0 0.1em 0;
   background-color: #cccccc;
 }
 .c100 *,
@@ -243,6 +243,9 @@
   float: none;
   margin: 0 auto;
 }
+.c100.medium {
+  font-size: 180px;
+}
 .c100.big {
   font-size: 240px;
 }
@@ -251,14 +254,15 @@
 }
 .c100 > span {
   position: absolute;
+  font-family: 'Cardo', serif;
   width: 100%;
   z-index: 1;
   left: 0;
   top: 0;
-  width: 5em;
-  line-height: 5em;
-  font-size: 0.2em;
-  color: #cccccc;
+  width: 4em;
+  line-height: 4em;
+  font-size: 45px;
+  color: #6A6A6A;
   display: block;
   text-align: center;
   white-space: nowrap;
@@ -277,14 +281,14 @@
 }
 .c100:after {
   position: absolute;
-  top: 0.08em;
-  left: 0.08em;
+  top: 0.05em;
+  left: 0.05em;
   display: block;
   content: " ";
   border-radius: 50%;
-  background-color: #f5f5f5;
-  width: 0.84em;
-  height: 0.84em;
+  background-color: #fff;
+  width: 0.90em;
+  height: 0.90em;
   -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1063,3 +1067,16 @@
 .c100.orange.dark:hover > span {
   color: #e08833;
 }
+.c100.blueOther .bar,
+.c100.blueOther .fill {
+  border-color: #0FBFD7 !important;
+}
+.c100.redOther .bar,
+.c100.redOther .fill {
+  border-color: #F74293 !important;
+}
+.c100.orangeOther .bar,
+.c100.orangeOther .fill {
+  border-color: #F6A623 !important;
+}
+
