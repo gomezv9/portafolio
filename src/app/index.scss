@@ -24,6 +24,12 @@ body {
 	z-index:1;
 }
 
+.circleFold3{
+	position:absolute;
+	top:305%;
+	z-index:1;
+}
+
 .lineBlue{
 	width:80px;
 	height:2px;
@@ -200,7 +206,7 @@ section.container2{
 
 section.container3{
 	width:100%;
-	height:500px;
+	height:770px;
 	background: transparent;
 	padding-top:157px;
 	z-index: 2;
@@ -232,7 +238,54 @@ section.container3{
 			}
 
 		}
+
+		.textSkill{
+			font-size: 20px;
+			color: #6A6A6A;
+			letter-spacing: 0;
+			font-weight: 300;
+		}
 }
+
+section.container4{
+	width:100%;
+	height:500px;
+	background: transparent;
+	padding-top:157px;
+	z-index: 2;
+    position: relative;
+
+    	&:before{
+		    background-image: linear-gradient(180deg, #fff  20%, rgba(255,255,255,0.00) 100%);
+		    content: '';
+		    position: absolute;
+		    width: 100%;
+		    height: 50%;
+		    left: 0;
+		    top: 0;
+    	}
+
+    	h2{
+			font-family: 'Cardo', serif;
+			font-size: 40px;
+			color: #4A4A4A;
+			letter-spacing: 0;
+			line-height: 48px;
+			font-weight: 500;
+			margin-bottom:20px;
+			text-align: center;
+			z-index: 2;
+    		position: relative;
+		}
+
+		.lineBlue{
+			margin:0 auto;
+			margin-bottom: 40px;
+			z-index: 2;
+    		position: relative;
+		}
+
+}		
 
 @import 'circle';
 /**
