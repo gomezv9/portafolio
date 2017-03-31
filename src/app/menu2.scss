@@ -256,6 +256,10 @@ fieldset[disabled] .btn-custom-3.active {
     margin: 0;
     padding: 0;
     list-style: none;
+
+    li{
+        float: inherit;
+    }
 }
 #body-nav ul li a {
     display: block;
