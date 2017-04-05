@@ -242,7 +242,18 @@ fieldset[disabled] .btn-custom-3.active {
     top: 59%;
     display: none;
 }
-.show-nav .toggle-nav .option{
+.toggle-nav.other .option {
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 80px;
+    right:118%;
+    text-align: center;
+    top: 59%;
+    display: none;
+    line-height: 20px;
+}
+.show-nav .toggle-nav.other .option{
     display: block;
 }
 #body-nav {
@@ -273,6 +284,17 @@ fieldset[disabled] .btn-custom-3.active {
 #body-nav ul li a:hover {
     background: #4EFFFF;
     color: #000;
+}
+.headerFixed{
+    height: 140px;
+    position:fixed;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.4s ease-in;
+    &.fixed{
+        background: #000;
+        opacity: 0.8;
+    }
 }
 @media only screen and (max-width: 1200px) {}@media only screen and (max-width: 992px) {
     #content h1 {
