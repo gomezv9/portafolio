@@ -224,6 +224,7 @@ fieldset[disabled] .btn-custom-3.active {
     display: block;
     width: 60px;
     height: 60px;
+    transition: all 0.3s ease-in;
 }
 .toggle-nav:hover {
     -webkit-transform: scale(1.05);
@@ -241,6 +242,9 @@ fieldset[disabled] .btn-custom-3.active {
     text-align: center;
     top: 59%;
     display: none;
+}
+.toggle-nav.other{
+    top:-10px;
 }
 .toggle-nav.other .option {
     position: absolute;
@@ -286,15 +290,26 @@ fieldset[disabled] .btn-custom-3.active {
     color: #000;
 }
 .headerFixed{
-    height: 140px;
+    height: 80px;
     position:fixed;
     z-index: 999;
     width: 100%;
-    transition: all 0.4s ease-in;
+    transition: all 0.3s ease-in;
     &.fixed{
         background: #000;
         opacity: 0.8;
+        transition: all 0.3s ease-in;
+
+        .logo{
+            top:18px;
+            transition: all 0.3s ease-in;
+        }
+        .toggle-nav{
+            top:-10px;
+            transition: all 0.3s ease-in;
+        }
     }
+
 }
 @media only screen and (max-width: 1200px) {}@media only screen and (max-width: 992px) {
     #content h1 {
